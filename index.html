@@ -3,6 +3,9 @@
 <head>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- place this in your head tag -->
+  <script src='https://js.tito.io/v1' async></script>
+  <link rel="stylesheet" type="text/css" href='https://css.tito.io/v1' />
 </head>
 
 <body>
@@ -25,11 +28,26 @@
     <p class="date">July 9 & 10, 2016</p>
     <p class="venue">@ United Nations</p>
     <p class="updates">A community-run conference focused on open source data visualization technologies</p>
-    <p class="updates strong">Registration and sessions proposals opening soon!</p>
     <p class="updates strong">Please send us an email at <a href="mailto:info@dataviz.camp">info@dataviz.camp</a> if you have any questions or want to get involved.</p>
+    <h4 class="updates strong"><a href="http://goo.gl/forms/pHLxKBZZlX6s0uau2" target="_blank">Propose your presentation here: http://goo.gl/forms/pHLxKBZZlX6s0uau2</a>.</h4>
+
   </div>
 
-  <div id="updated">Last updated on Apr 15, 2016</div>
+  <div id="blocks">
+	  <div id="register" class="block">
+  		<h4 class="block-title">Data Viz Camp  Registration</h4>    
+      <tito-widget event="data-viz-camp/data-viz-camp-2016"></tito-widget>
+      <p>You don't need to make an additional ticket donation for Data Viz Camp if you've already purchased a ticket for another <a href="http://opencamps.org" target="_blank">Open Camps</a> event on the same day (other than WordCamp NYC or PyGotham which do require a separate ticket).</p>
+    </div>
+
+  <div id="community" class="block">
+	  	<h4 class="block-title">Other Community Events</h4>    
+      <p>Check out each of the <strong><a href="http://www.meetup.com/DataVisualization/" target="_blank">Data Visualization</a></strong> and <strong><a href="http://www.meetup.com/NYC-D3-JS/" target="_blank">NYC D3.JS</a></strong> meetup!</p>
+     </div>
+   </div>
+
+  </div>
+
 </body>
 
 </html>
