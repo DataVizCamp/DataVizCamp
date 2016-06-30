@@ -1,6 +1,10 @@
 /* Data Viz Camp */
 
-.session .scheduling .slot,
+.session {
+	display: block;
+}
+
+.scheduling .slot,
 .session .scheduling .date {
 	display: block;
 }
