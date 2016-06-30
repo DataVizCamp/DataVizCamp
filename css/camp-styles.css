@@ -6,5 +6,5 @@
 
 .scheduling .slot,
 .session .scheduling .date {
-	display: block;
+	display: block!important;
 }
